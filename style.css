@@ -121,6 +121,10 @@ nav .menu li a:hover {
   font-family: Arial, sans-serif;
 }
 
+.products a{
+  text-decoration: none;
+}
+
 .products h2 {
   text-align: center;
   color: #2e7d32;
@@ -326,7 +330,7 @@ nav .menu li a:hover {
     padding: 10px 0;
   }
 
-  /* Menü aktifken göster */
+  
   .menu-toggle:checked + .hamburger + .menu {
     display: flex;
   }
@@ -402,4 +406,21 @@ nav .menu li a:hover {
 .hero-text p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.product-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.product-gallery img {
+  width: 100%;
+  max-width: 500px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
